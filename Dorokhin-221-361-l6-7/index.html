@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+    <title>111</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link href="main-page.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo-text"><img class="logo" src="/Dorokhin221-361-l3-l4/web-3/dog-cosmos-svgrepo-com.svg"></div>
+        <div class="to-bottom">
+            <nav>
+
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div></div>
+            <script type="text/javascript">
+                function powF(x, n) {
+
+                    let result = x;
+                    if (Number(n) === 0) {
+                        result = 1;
+                    } else {
+                        for (let i = 1; i < n; i++) {
+                            result *= x;
+                        }
+                    }
+                    document.getElementById("pow1").innerHTML = result;
+                }
+
+                function NOD(a, b) {
+                    while (b !== 0) {
+                        temp = a % b;
+                        a = b;
+                        b = temp;
+                    }
+                    document.getElementById("NOD").innerHTML = a;
+                }
+
+                function minDigit(x) {
+                    let min = 9;
+                    while (x > 0) {
+                        const digit = x % 10;
+                        if (digit < min) {
+                            min = digit;
+                        }
+                        x = Math.floor(x / 10);
+                    }
+                    document.getElementById("minDigit").innerHTML = min;
+                }
+
+                function pluralizeRecords(n) {
+                    if (n === 1) {
+                        document.getElementById("plur").innerHTML = "В результате найдена 1 запись";
+                    }
+                    else if (n % 10 === 1 && n % 100 !== 11) {
+                        document.getElementById("plur").innerHTML = `В результате найдена ${n} запись`;
+                    }
+                    else if ([2, 3, 4].includes(n % 10) && ![12, 13, 14].includes(n % 100)) {
+                        document.getElementById("plur").innerHTML = `В результате найдено ${n} записи`;
+                    } else {
+                        document.getElementById("plur").innerHTML = `В результате найдено ${n} записей`;
+                    }
+                }
+                function fibb(n) {
+                    if (Number(n) < 0 || Number(n) > 1000) {
+                        document.getElementById("fibb").innerHTML = "Неверное значение. Введите число от 0 до 1000.";
+                    } else if (Number(n) === 0) {
+                        document.getElementById("fibb").innerHTML = 0;
+                    } else if (Number(n) === 1) {
+                        document.getElementById("fibb").innerHTML = 1;
+                    } else {
+                        let fibPrev = 0;
+                        let fibCurr = 1;
+                        let fibResult;
+
+                        for (let i = 2; i <= n; i++) {
+                            fibResult = fibPrev + fibCurr;
+                            fibPrev = fibCurr;
+                            fibCurr = fibResult;
+                        }
+
+                        document.getElementById("fibb").innerHTML = fibResult;
+                    }
+                }
+            </script>
+            <div>
+                Pow
+                <input type="text" id="myInput">
+                <input type="text" id="myInput1">
+                <button type="button"
+                    onclick="powF(document.getElementById('myInput').value, document.getElementById('myInput1').value)">Показать
+                    значение</button>
+                <p id="pow1" style="margin: 20px"></p>
+            </div>
+
+            <div>
+                NOD
+                <input type="text" id="myNOD">
+                <input type="text" id="myNOD1">
+                <button type="button"
+                    onclick="NOD(document.getElementById('myNOD').value, document.getElementById('myNOD1').value)">Показать
+                    значение</button>
+                <p id="NOD" style="margin: 20px"></p>
+            </div>
+
+            <div>
+                MinDigit
+                <input type="text" id="myMin">
+                <button type="button" onclick="minDigit(document.getElementById('myMin').value)">Показать
+                    значение</button>
+                <p id="minDigit" style="margin: 20px"></p>
+            </div>
+            <div>
+                Pluralization
+                <input type="text" id="myPlur">
+                <button type="button" onclick="pluralizeRecords(document.getElementById('myPlur').value)">Показать
+                    значение</button>
+                <p id="plur" style="margin: 20px"></p>
+            </div>
+            <div>
+                Fibb
+                <input type="text" id="myFibb">
+                <button type="button" onclick="fibb(document.getElementById('myFibb').value)">Показать
+                    значение</button>
+                <p id="fibb" style="margin: 20px"></p>
+            </div>
+
+            <script></script>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Контакты: </p>
+        <p>Телефон: +7(968)741-51-35</p>
+        <p>E-mail: a.n.dorokhin@mail.ru</p>
+        <p>Собрано: </p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<world>
+    <world-part value="Asia">
+        <country name ="China">
+            <area>
+                9 596 961 km² 
+            </area>
+            <lang>
+                Chineese
+            </lang>
+            <capital name="Pekin">
+                <cap-coordinates>
+                    (10.10023,21.23405)
+                </cap-coordinates>
+            </capital>
+        </country>
+        <country name ="Vietnam">
+            <area>
+                331 210 km² 
+            </area>
+            <lang>
+                Vietnam
+            </lang>
+            <capital name="Hannoy">
+                <cap-coordinates>
+                    (10.10023,11.23405)
+                </cap-coordinates>
+            </capital>
+        </country>
+        <country name ="South Corea">
+            <area>
+                100 363 km² 
+            </area>
+            <lang>
+                Korean
+            </lang>
+            <capital name="Seul">
+                <cap-coordinates>
+                    (16.10023,31.23)
+                </cap-coordinates>
+            </capital>
+        </country>
+        <country name ="Japan">
+            <area>
+                372 800 km² 
+            </area>
+            <lang>
+                Japaneese
+            </lang>
+            <capital name="Tokio">
+                <cap-coordinates>
+                    (15.3314,11.3404)
+                </cap-coordinates>
+            </capital>
+        </country>
+        <country name ="India">
+            <area>
+                3 287 263 km² 
+            </area>
+            <lang>
+                Indian
+            </lang>
+            <capital name="New-Deli">
+                <cap-coordinates>
+                    (156.3314,116.3404)
+                </cap-coordinates>
+            </capital>
+        </country>
+    </world-part>
+</world>

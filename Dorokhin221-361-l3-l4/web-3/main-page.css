@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/Dorokhin221-361-l3-l4/web-3/OPSEG70.jpg);
+    background-size: 160%;
+    font-size: 18px;
+    background-size: cover;
+}
+
+header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 110px;
+    padding: 15px;
+    background-color: #024065;
+}
+form {
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    background-image: url(/Dorokhin221-361-l3-l4/web-3/cat-bg.jpg);
+    background-size: 160%;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-color: rgb(230, 234, 235);
+    border: 2px solid rgb(61, 84, 114);
+    
+    max-width: 80%;
+    width: 50%;
+    border-radius: 5px;
+}
+.notif{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
+.logo-text{
+    color: #e4a002;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    gap: 5px;
+
+}
+
+.to-bottom {
+    
+    margin: 5px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    
+    /* background-color: #0099ef; */
+
+}
+.center {
+    margin-top: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+main {
+    margin-top: 125px;
+    display: block;
+    min-height: 90vh;
+    height:auto;
+    padding: 20px;
+    /* background-image: url(/Dorokhin221-361-l1-l2/materials/turret-form.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+}
+
+section {
+    background-color: rgba(222, 222, 222, 0.862);
+    margin-left: auto;
+    display: flex;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 94%;
+    min-height: 96%;
+    height: auto;
+    padding: 14px;
+    
+}
+article{
+    display: flexb;
+    margin: 1px;
+    padding: 5px;
+}
+.main-text {
+    padding-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.list{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+} 
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4px;
+    padding-top: 20px;
+    background-color: #e4a002;
+}
+
+.logo {
+    width: 60px;
+}
+.profile-img {
+    float: right;
+    min-width: 220px;
+    width: 30%;
+    margin: 0 1em 1em 0;
+    border-radius: 50%;
+}
+.two-col {
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a {
+    color: black;
+    border: 1px solid #e4a002;
+    background-color: #e4a002;
+    border-radius: 3px;padding: 2px;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #44443b;
+}
+
+a:hover {
+    
+    color: rgb(255, 255, 255);
+    background-color: steelblue;
+    
+}
+.activ {
+    color: aqua;
+    background-color: red;
+}
